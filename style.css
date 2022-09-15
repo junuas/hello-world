@@ -1,0 +1,13 @@
+
+
+table, th, td {
+    border: 1px solid;
+}
+  
+.tools-table {
+    border: 8px solid;
+}
+
+#elnura {
+    color: blue;
+}
