@@ -1,13 +1,32 @@
 
-
-table, th, td {
-    border: 1px solid;
+.box1, .box2 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 20px 40px;
 }
-  
-.tools-table {
-    border: 8px solid;
+.line1{
+    width: 62.5%;
+    border: 1px solid;   
+}
+.pic{
+    width: 100%;
+}
+.line {
+    width: 30%;
+    border: 1px solid grey;  
+    background-color: white; 
+}
+.foot {
+    background-color: grey;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+.text, h3, .foot{
+    margin-left: 20px;
 }
 
-#elnura {
-    color: blue;
+main{
+    border: 5px solid red;
 }
